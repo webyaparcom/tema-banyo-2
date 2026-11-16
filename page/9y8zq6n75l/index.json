@@ -1,0 +1,40 @@
+{
+  "id": "9y8zq6n75l",
+  "name": {
+    "tr": "Uygulama",
+    "en": "Method",
+    "ar": "التنفيذ"
+  },
+  "description": {
+    "tr": "Seramiğin altındaki dört katman ve m² bütçe hesabı.",
+    "en": "The four layers under the tiles and an m² budget calculator.",
+    "ar": "الطبقات الأربع تحت البلاط وحاسبة الميزانية بالمتر المربع."
+  },
+  "keyword": {
+    "tr": "Atölye",
+    "en": "Workshop",
+    "ar": "الورشة"
+  },
+  "path": "hizmetler",
+  "icon": "layers",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "wtl965",
+      "okoluh"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Uygulama",
+    "en": "Method",
+    "ar": "التنفيذ"
+  },
+  "date": "2026-11-16T18:02:46.820Z",
+  "update": "2026-11-16T18:15:19.116Z"
+}

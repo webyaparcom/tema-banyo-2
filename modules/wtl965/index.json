@@ -1,0 +1,53 @@
+{
+  "name": "Özellik Katman Kesiti — patlatılmış katman levhaları ve etiketleri",
+  "description": "Ürünün katmanları patlatılmış (exploded) bir kesit gibi üst üste dizilir: solda kalınlığı görünen eğik levhalar (üst yüzde özelliğin ikonu), sağda kesik çizgiyle bağlı numaralı etiketler (başlık, açıklama, bağlantı). Görünür olunca sıkışık levhalar ayrılarak açılır; bir katmanın üzerine gelince levhası öne kayar. Mobilde levhalar küçülür, etiket yanında kalır. ozellik-merkez-gorsel özellikleri bir fotoğrafın çevresine, ozellik-yapiskan-gorsel sabit görselin yanına dizer; bu modülde görsel yok — özellikler CSS ile çizilmiş eğik levhalardan bir katman kesiti olur (malzeme/taban/yalıtım katmanları), giriş hareketi levhaların ayrılması. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "layers",
+  "category": "ozellik",
+  "subCategory": "layer-section",
+  "tags": [
+    "ozellik",
+    "layers",
+    "exploded",
+    "material",
+    "css-art",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "img": "",
+    "bg": "var(--mx-site-surface, #f6f7f9)",
+    "text": "var(--mx-site-text, #111318)",
+    "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+    "kartBg": "var(--mx-site-bg, #ffffff)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguBg": "var(--mx-site-primary, #2563eb)",
+    "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+    "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+    "color": "var(--mx-site-text, #111318)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "data",
+    "alanlar": {
+      "baslik": "özellik adı — dil sözlüğü (zorunlu)",
+      "metin": "açıklama — dil sözlüğü",
+      "ikon": "Material Symbols adı",
+      "img": "görsel yolu (destekleyen yerleşimde; ana görsel yoksa ilk görsel)",
+      "alt": "görsel alt metni — dil sözlüğü",
+      "url": "bağlantı",
+      "linkMetin": "bağlantı yazısı (yoksa eski `ctaLabel`, o da yoksa «Devamını oku»)"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+<section class="modulex-ozellik-katman-kesit{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-ozellik-katman-kesit-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* ozellik-katman-kesit — ozellik-merkez-gorsel özellikleri bir fotoğrafın çevresine, ozellik-yapiskan-gorsel sabit görselin yanına dizer; bu modülde görsel yok — özellikler CSS ile çizilmiş eğik levhalardan bir katman kesiti olur (malzeme/taban/yalıtım katmanları), giriş hareketi levhaların ayrılması. */
+  .modulex-ozellik-katman-kesit { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-ozellik-katman-kesit *, .modulex-ozellik-katman-kesit *::before, .modulex-ozellik-katman-kesit *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-ozellik-katman-kesit :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-ozellik-katman-kesit :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-ozellik-katman-kesit :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-ozellik-katman-kesit :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-ozellik-katman-kesit img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-ozellik-katman-kesit) img { height: auto; }
+  .modulex-ozellik-katman-kesit [hidden] { display: none !important; }
+  .modulex-ozellik-katman-kesit :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-ozellik-katman-kesit :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-ozellik-katman-kesit-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-ozellik-katman-kesit-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-ozellik-katman-kesit--bassiz .modulex-ozellik-katman-kesit-bas { display: none; }
+  .modulex-ozellik-katman-kesit-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-ozellik-katman-kesit-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-ozellik-katman-kesit-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-ozellik-katman-kesit-bas { max-width: 780px; margin-inline: auto; text-align: center; justify-items: center; }
+  .modulex-ozellik-katman-kesit-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-ozellik-katman-kesit-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-ozellik-katman-kesit-dugme:hover { transform: translateY(-2px); }
+  .modulex-ozellik-katman-kesit-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-ozellik-katman-kesit-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-ozellik-katman-kesit-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-ozellik-katman-kesit-kesit { display: grid; gap: 14px; max-width: 980px; margin-inline: auto; }
+  .modulex-ozellik-katman-kesit-katman { position: relative; display: grid; grid-template-columns: minmax(180px, 0.9fr) minmax(0, 1.1fr); gap: clamp(18px, 4vw, 56px); align-items: center; }
+  .modulex-ozellik-katman-kesit-levha { position: relative; height: 92px; transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) calc(var(--i) * 0.06s); }
+  .modulex-ozellik-katman-kesit--hazir:not(.modulex-ozellik-katman-kesit--gor) .modulex-ozellik-katman-kesit-levha { transform: translateY(calc(var(--d) * 92px)); }
+  .modulex-ozellik-katman-kesit-lyuz { position: absolute; inset-block-start: 0; inset-inline: 0; display: grid; place-items: center; height: 62px; clip-path: polygon(16% 0, 100% 0, 84% 100%, 0 100%); background: color-mix(in srgb, --accent-- calc(22% + var(--i) * 14%), --kartBg--); color: --text--; transition: background-color 0.3s ease; }
+  .modulex-ozellik-katman-kesit-lon { position: absolute; inset-block-start: 62px; inset-inline-start: 0; width: 84%; height: 22px; background: color-mix(in srgb, --accent-- calc(40% + var(--i) * 14%), --text--); }
+  .modulex-ozellik-katman-kesit-lyan { position: absolute; inset-block-start: 0; inset-inline-end: 0; width: 16%; height: 84px; clip-path: polygon(0 62px, 100% 0, 100% 22px, 0 84px); background: color-mix(in srgb, --accent-- calc(40% + var(--i) * 14%), --text-- 45%); }
+  .modulex-ozellik-katman-kesit-likon { font-size: 30px; transition: transform 0.4s ease; }
+  .modulex-ozellik-katman-kesit-katman:hover .modulex-ozellik-katman-kesit-levha { transform: translateX(-14px); }
+  [dir="rtl"] .modulex-ozellik-katman-kesit-katman:hover .modulex-ozellik-katman-kesit-levha { transform: translateX(14px); }
+  .modulex-ozellik-katman-kesit-katman:hover .modulex-ozellik-katman-kesit-lyuz { background-color: --accent--; color: --accentText--; }
+  .modulex-ozellik-katman-kesit-katman:hover .modulex-ozellik-katman-kesit-likon { transform: scale(1.15); }
+  .modulex-ozellik-katman-kesit-letiket { position: relative; display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 14px; align-items: start; padding-block: 10px; padding-inline-start: 18px; border-inline-start: 2px dashed --cizgi--; transition: border-color 0.3s ease; }
+  .modulex-ozellik-katman-kesit-letiket::before { content: ""; position: absolute; inset-block-start: 31px; inset-inline-end: 100%; width: clamp(14px, 3.6vw, 50px); border-block-start: 2px dashed --cizgi--; transition: border-color 0.3s ease; }
+  .modulex-ozellik-katman-kesit-katman:hover .modulex-ozellik-katman-kesit-letiket, .modulex-ozellik-katman-kesit-katman:hover .modulex-ozellik-katman-kesit-letiket::before { border-color: --accent--; }
+  .modulex-ozellik-katman-kesit-lno { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: --bg--; color: --accentInk--; font-weight: 800; font-variant-numeric: tabular-nums; box-shadow: inset 0 0 0 2px --accent--; }
+  .modulex-ozellik-katman-kesit-lyazi { display: grid; gap: 4px; }
+  .modulex-ozellik-katman-kesit-lyazi .modulex-ozellik-katman-kesit-kbaslik { font-size: 1.12rem; font-weight: 750; }
+  .modulex-ozellik-katman-kesit-lyazi .modulex-ozellik-katman-kesit-kmetin { color: --muted--; font-size: 0.94rem; }
+  @media (max-width: 768px) {
+    .modulex-ozellik-katman-kesit-kesit { gap: 18px; }
+    .modulex-ozellik-katman-kesit-katman { grid-template-columns: 96px minmax(0, 1fr); gap: 14px; align-items: start; }
+    .modulex-ozellik-katman-kesit-levha { height: 60px; }
+    .modulex-ozellik-katman-kesit--hazir:not(.modulex-ozellik-katman-kesit--gor) .modulex-ozellik-katman-kesit-levha { transform: translateY(calc(var(--d) * 60px)); }
+    .modulex-ozellik-katman-kesit-lyuz { height: 40px; }
+    .modulex-ozellik-katman-kesit-lon { inset-block-start: 40px; height: 14px; }
+    .modulex-ozellik-katman-kesit-lyan { height: 54px; clip-path: polygon(0 40px, 100% 0, 100% 14px, 0 54px); }
+    .modulex-ozellik-katman-kesit-likon { font-size: 22px; }
+    .modulex-ozellik-katman-kesit-letiket { grid-template-columns: minmax(0, 1fr); padding-inline-start: 12px; }
+    .modulex-ozellik-katman-kesit-letiket::before { display: none; }
+    .modulex-ozellik-katman-kesit-lno { width: 34px; height: 34px; font-size: 0.85rem; }
+  }
+  .modulex-ozellik-katman-kesit-git { display: inline-flex; align-items: center; gap: 6px; width: fit-content; color: --accentInk--; font-weight: 700; text-decoration: none; transition: gap 0.25s ease; }
+  .modulex-ozellik-katman-kesit-git:hover { gap: 10px; }
+  .modulex-ozellik-katman-kesit-git .material-symbols-outlined { font-size: 18px; }
+  .modulex-ozellik-katman-kesit-ic > .modulex-ozellik-katman-kesit-cta { grid-column: 1 / -1; margin-block-start: 32px; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-ozellik-katman-kesit :is(.modulex-ozellik-katman-kesit-baslik, .modulex-ozellik-katman-kesit-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-ozellik-katman-kesit-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-ozellik-katman-kesit { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-ozellik-katman-kesit *, .modulex-ozellik-katman-kesit *::before, .modulex-ozellik-katman-kesit *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-ozellik-katman-kesit";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const gozlem = (s, P, az) => {
+        const gor = () => s.classList.add(P + "--gor");
+        s.classList.add(P + "--hazir");
+        if (az || !("IntersectionObserver" in window)) { gor(); return; }
+        const io = new IntersectionObserver((gs) => {
+          gs.forEach((g) => { if (g.isIntersecting) { gor(); io.disconnect(); } });
+        }, { threshold: 0.15 });
+        io.observe(s);
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      gozlem(s, P, az);
+    });
+  })();
+</script>
