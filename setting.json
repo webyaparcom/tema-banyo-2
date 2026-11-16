@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Mozaik Banyo Atölyesi: İzmir’de banyo ve ıslak hacim yenileme — çizim, su yalıtımı, seramik ve montaj tek atölyeden. Demo site; içerik kurgusaldır.",
+    "en": "Mozaik Bathroom Workshop: bathroom and wet-room renovation in Izmir — drawings, waterproofing, tiling and fitting from one workshop. Demo site; content is fictional.",
+    "ar": "ورشة موزاييك للحمّامات: تجديد الحمّامات والمساحات الرطبة في إزمير — رسم وعزل مائي وبلاط وتركيب من ورشة واحدة. موقع تجريبي؛ المحتوى افتراضي."
+  },
+  "keyword": {
+    "tr": "banyo yenileme, ıslak hacim, su yalıtımı, seramik, duşakabin, keşif",
+    "en": "bathroom renovation, wet room, waterproofing, tiling, shower enclosure, survey",
+    "ar": "تجديد الحمّام، مساحة رطبة، عزل مائي، بلاط، كابينة استحمام، معاينة"
+  },
+  "category": "Kurumsal",
+  "name": "Mozaik Banyo",
+  "domain": "banyo-2.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "source-sans-3",
+    "heading": "barlow-condensed",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#B4532F",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "2px",
+    "--mx-radius-md": "4px",
+    "--mx-radius-lg": "6px",
+    "--mx-radius-xl": "8px"
+  },
+  "icon": "icon.png"
+}

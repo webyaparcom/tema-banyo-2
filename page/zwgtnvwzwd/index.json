@@ -1,0 +1,39 @@
+{
+  "id": "zwgtnvwzwd",
+  "name": {
+    "tr": "Keşif",
+    "en": "Survey",
+    "ar": "المعاينة"
+  },
+  "description": {
+    "tr": "Kat planından alan seçerek keşif talebi (demo).",
+    "en": "Survey request by picking areas on the floor plan (demo).",
+    "ar": "طلب معاينة باختيار الأركان من المخطط (تجريبي)."
+  },
+  "keyword": {
+    "tr": "keşif, randevu",
+    "en": "survey, appointment",
+    "ar": "معاينة، موعد"
+  },
+  "path": "teklif-al",
+  "icon": "event",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "d3gdk2"
+    ],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Keşif",
+    "en": "Survey",
+    "ar": "المعاينة"
+  },
+  "date": "2026-11-16T18:02:46.839Z",
+  "update": "2026-11-16T18:15:19.127Z"
+}

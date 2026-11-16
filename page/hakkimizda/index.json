@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Atölye",
+    "en": "Workshop",
+    "ar": "الورشة"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 1,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "9jua00",
+      "3qwt9y"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Plan kuralları ve sık sorulanlar.",
+    "en": "Plan rules and common questions.",
+    "ar": "قواعد المخطط والأسئلة الشائعة."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Atölye",
+    "en": "Workshop",
+    "ar": "الورشة"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-11-16T18:15:19.120Z",
+  "date": "2026-10-30"
+}

@@ -1,0 +1,138 @@
+{
+  "data": [
+    {
+      "id": "9y8zq6n75l",
+      "name": {
+        "tr": "Uygulama",
+        "en": "Method",
+        "ar": "التنفيذ"
+      },
+      "description": {
+        "tr": "Seramiğin altındaki dört katman ve m² bütçe hesabı.",
+        "en": "The four layers under the tiles and an m² budget calculator.",
+        "ar": "الطبقات الأربع تحت البلاط وحاسبة الميزانية بالمتر المربع."
+      },
+      "path": "hizmetler",
+      "icon": "layers",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "wtl965",
+          "okoluh"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Atölye",
+        "en": "Workshop",
+        "ar": "الورشة"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 1,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "9jua00",
+          "3qwt9y"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Plan kuralları ve sık sorulanlar.",
+        "en": "Plan rules and common questions.",
+        "ar": "قواعد المخطط والأسئلة الشائعة."
+      }
+    },
+    {
+      "id": "2dwvagh3rh",
+      "name": {
+        "tr": "Projeler",
+        "en": "Projects",
+        "ar": "المشاريع"
+      },
+      "description": {
+        "tr": "Bir banyo yenilemesinin aşamaları; görseller temsilîdir.",
+        "en": "The stages of a bathroom renovation; images are representative.",
+        "ar": "مراحل تجديد حمّام؛ الصور تمثيلية."
+      },
+      "path": "referanslar",
+      "icon": "photo_library",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "uz72v8",
+          "okoluh"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "zwgtnvwzwd",
+      "name": {
+        "tr": "Keşif",
+        "en": "Survey",
+        "ar": "المعاينة"
+      },
+      "description": {
+        "tr": "Kat planından alan seçerek keşif talebi (demo).",
+        "en": "Survey request by picking areas on the floor plan (demo).",
+        "ar": "طلب معاينة باختيار الأركان من المخطط (تجريبي)."
+      },
+      "path": "teklif-al",
+      "icon": "event",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "d3gdk2"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 4,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "7hjhe6",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Proje formu, adres ve atölye saatleri.",
+        "en": "Project brief, address and workshop hours.",
+        "ar": "نموذج المشروع والعنوان وساعات الورشة."
+      }
+    }
+  ],
+  "desc": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "2dwvagh3rh",
+  "name": {
+    "tr": "Projeler",
+    "en": "Projects",
+    "ar": "المشاريع"
+  },
+  "description": {
+    "tr": "Bir banyo yenilemesinin aşamaları; görseller temsilîdir.",
+    "en": "The stages of a bathroom renovation; images are representative.",
+    "ar": "مراحل تجديد حمّام؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "proje, banyo yenileme",
+    "en": "project, bathroom renovation",
+    "ar": "مشروع، تجديد حمّام"
+  },
+  "path": "referanslar",
+  "icon": "photo_library",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "uz72v8",
+      "okoluh"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Projeler",
+    "en": "Projects",
+    "ar": "المشاريع"
+  },
+  "date": "2026-11-16T18:02:46.831Z",
+  "update": "2026-11-16T18:15:19.123Z"
+}
