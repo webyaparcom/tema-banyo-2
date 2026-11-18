@@ -4,12 +4,16 @@
   "description": {
     "tr": "Mozaik Banyo Atölyesi: İzmir’de banyo ve ıslak hacim yenileme — çizim, su yalıtımı, seramik ve montaj tek atölyeden. Demo site; içerik kurgusaldır.",
     "en": "Mozaik Bathroom Workshop: bathroom and wet-room renovation in Izmir — drawings, waterproofing, tiling and fitting from one workshop. Demo site; content is fictional.",
-    "ar": "ورشة موزاييك للحمّامات: تجديد الحمّامات والمساحات الرطبة في إزمير — رسم وعزل مائي وبلاط وتركيب من ورشة واحدة. موقع تجريبي؛ المحتوى افتراضي."
+    "ar": "ورشة موزاييك للحمّامات: تجديد الحمّامات والمساحات الرطبة في إزمير — رسم وعزل مائي وبلاط وتركيب من ورشة واحدة. موقع تجريبي؛ المحتوى افتراضي.",
+    "de": "Mozaik Banyo Atölyesi: Renovierung von Bädern und Nassbereichen in İzmir — Planung, Abdichtung, Fliesen und Montage aus einer Werkstatt. Demo-Website; Inhalte sind fiktiv.",
+    "ru": "Mozaik Banyo Atölyesi: ремонт ванных комнат и влажных помещений в Измире — чертежи, гидроизоляция, плитка и монтаж в одной мастерской. Демо-сайт; содержимое вымышленное."
   },
   "keyword": {
     "tr": "banyo yenileme, ıslak hacim, su yalıtımı, seramik, duşakabin, keşif",
     "en": "bathroom renovation, wet room, waterproofing, tiling, shower enclosure, survey",
-    "ar": "تجديد الحمّام، مساحة رطبة، عزل مائي، بلاط، كابينة استحمام، معاينة"
+    "ar": "تجديد الحمّام، مساحة رطبة، عزل مائي، بلاط، كابينة استحمام، معاينة",
+    "de": "Badsanierung, Nassbereich, Abdichtung, Keramik, Duschkabine, Besichtigung",
+    "ru": "ремонт ванной, мокрая зона, гидроизоляция, керамика, душевая кабина, осмотр"
   },
   "category": "Kurumsal",
   "name": "Mozaik Banyo",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,

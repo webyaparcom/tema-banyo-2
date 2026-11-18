@@ -2,7 +2,9 @@
   "name": {
     "tr": "Atölye",
     "en": "Workshop",
-    "ar": "الورشة"
+    "ar": "الورشة",
+    "de": "Workshop",
+    "ru": "Воркшоп"
   },
   "status": "play",
   "category": "",
@@ -23,7 +25,9 @@
   "description": {
     "tr": "Plan kuralları ve sık sorulanlar.",
     "en": "Plan rules and common questions.",
-    "ar": "قواعد المخطط والأسئلة الشائعة."
+    "ar": "قواعد المخطط والأسئلة الشائعة.",
+    "de": "Planregeln und häufige Fragen.",
+    "ru": "Правила плана и частые вопросы."
   },
   "spot": {
     "tr": "",
@@ -34,12 +38,16 @@
   "title": {
     "tr": "Atölye",
     "en": "Workshop",
-    "ar": "الورشة"
+    "ar": "الورشة",
+    "de": "Workshop",
+    "ru": "Воркшоп"
   },
   "keyword": {
     "tr": "hakkımızda",
     "en": "about",
-    "ar": "من نحن"
+    "ar": "من نحن",
+    "de": "Über uns",
+    "ru": "О нас"
   },
   "text": {},
   "update": "2026-11-16T18:15:19.120Z",

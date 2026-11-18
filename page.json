@@ -5,12 +5,16 @@
       "name": {
         "tr": "Uygulama",
         "en": "Method",
-        "ar": "التنفيذ"
+        "ar": "التنفيذ",
+        "de": "Montage",
+        "ru": "Монтаж"
       },
       "description": {
         "tr": "Seramiğin altındaki dört katman ve m² bütçe hesabı.",
         "en": "The four layers under the tiles and an m² budget calculator.",
-        "ar": "الطبقات الأربع تحت البلاط وحاسبة الميزانية بالمتر المربع."
+        "ar": "الطبقات الأربع تحت البلاط وحاسبة الميزانية بالمتر المربع.",
+        "de": "Die vier Schichten unter der Keramik und die Budgetrechnung pro m².",
+        "ru": "Четыре слоя под керамикой и расчёт бюджета на м²."
       },
       "path": "hizmetler",
       "icon": "layers",
@@ -30,7 +34,9 @@
       "name": {
         "tr": "Atölye",
         "en": "Workshop",
-        "ar": "الورشة"
+        "ar": "الورشة",
+        "de": "Workshop",
+        "ru": "Воркшоп"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -51,7 +57,9 @@
       "description": {
         "tr": "Plan kuralları ve sık sorulanlar.",
         "en": "Plan rules and common questions.",
-        "ar": "قواعد المخطط والأسئلة الشائعة."
+        "ar": "قواعد المخطط والأسئلة الشائعة.",
+        "de": "Planregeln und häufige Fragen.",
+        "ru": "Правила плана и частые вопросы."
       }
     },
     {
@@ -59,12 +67,16 @@
       "name": {
         "tr": "Projeler",
         "en": "Projects",
-        "ar": "المشاريع"
+        "ar": "المشاريع",
+        "de": "Projekte",
+        "ru": "Проекты"
       },
       "description": {
         "tr": "Bir banyo yenilemesinin aşamaları; görseller temsilîdir.",
         "en": "The stages of a bathroom renovation; images are representative.",
-        "ar": "مراحل تجديد حمّام؛ الصور تمثيلية."
+        "ar": "مراحل تجديد حمّام؛ الصور تمثيلية.",
+        "de": "Die Phasen einer Badrenovierung; die Bilder sind symbolisch.",
+        "ru": "Этапы обновления ванной комнаты; изображения условные."
       },
       "path": "referanslar",
       "icon": "photo_library",
@@ -85,12 +97,16 @@
       "name": {
         "tr": "Keşif",
         "en": "Survey",
-        "ar": "المعاينة"
+        "ar": "المعاينة",
+        "de": "Besichtigung",
+        "ru": "Осмотр"
       },
       "description": {
         "tr": "Kat planından alan seçerek keşif talebi (demo).",
         "en": "Survey request by picking areas on the floor plan (demo).",
-        "ar": "طلب معاينة باختيار الأركان من المخطط (تجريبي)."
+        "ar": "طلب معاينة باختيار الأركان من المخطط (تجريبي).",
+        "de": "Besichtigungsanfrage durch Auswahl der Fläche im Grundriss (Demo).",
+        "ru": "Запрос на осмотр с выбором площади на плане этажа (демо)."
       },
       "path": "teklif-al",
       "icon": "event",
@@ -109,7 +125,9 @@
       "name": {
         "tr": "İletişim",
         "en": "Contact",
-        "ar": "اتصل بنا"
+        "ar": "اتصل بنا",
+        "de": "Kontakt",
+        "ru": "Контакты"
       },
       "status": "play",
       "id": "iletisim",
@@ -130,7 +148,9 @@
       "description": {
         "tr": "Proje formu, adres ve atölye saatleri.",
         "en": "Project brief, address and workshop hours.",
-        "ar": "نموذج المشروع والعنوان وساعات الورشة."
+        "ar": "نموذج المشروع والعنوان وساعات الورشة.",
+        "de": "Projektskizze, Adresse und Werkstattzeiten.",
+        "ru": "Описание проекта, адрес и часы работы мастерской."
       }
     }
   ],

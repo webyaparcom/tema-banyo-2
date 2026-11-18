@@ -3,17 +3,23 @@
   "name": {
     "tr": "Uygulama",
     "en": "Method",
-    "ar": "التنفيذ"
+    "ar": "التنفيذ",
+    "de": "Montage",
+    "ru": "Монтаж"
   },
   "description": {
     "tr": "Seramiğin altındaki dört katman ve m² bütçe hesabı.",
     "en": "The four layers under the tiles and an m² budget calculator.",
-    "ar": "الطبقات الأربع تحت البلاط وحاسبة الميزانية بالمتر المربع."
+    "ar": "الطبقات الأربع تحت البلاط وحاسبة الميزانية بالمتر المربع.",
+    "de": "Die vier Schichten unter der Keramik und die Budgetrechnung pro m².",
+    "ru": "Четыре слоя под керамикой и расчёт бюджета на м²."
   },
   "keyword": {
     "tr": "Atölye",
     "en": "Workshop",
-    "ar": "الورشة"
+    "ar": "الورشة",
+    "de": "Workshop",
+    "ru": "Воркшоп"
   },
   "path": "hizmetler",
   "icon": "layers",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Uygulama",
     "en": "Method",
-    "ar": "التنفيذ"
+    "ar": "التنفيذ",
+    "de": "Montage",
+    "ru": "Монтаж"
   },
   "date": "2026-11-16T18:02:46.820Z",
   "update": "2026-11-16T18:15:19.116Z"

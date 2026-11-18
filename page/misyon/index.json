@@ -3,17 +3,23 @@
   "name": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "description": {
     "tr": "Misyonumuz",
     "en": "Our mission",
-    "ar": "مهمتنا"
+    "ar": "مهمتنا",
+    "de": "Unsere Mission",
+    "ru": "Наша миссия"
   },
   "keyword": {
     "tr": "Misyon",
     "en": "mission, our mission, corporate responsibility",
-    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية"
+    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "path": "misyon",
   "icon": "flag",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Misyonumuz</h2>\n<p>Banyoyu çizimle başlatıp test edilmiş yalıtımla, temiz ve zamanında teslim etmek.</p>",
     "en": "<h2>Our mission</h2>\n<p>To start every bathroom with a drawing and hand it over clean and on time, with tested waterproofing.</p>",
-    "ar": "<h2>مهمتنا</h2>\n<p>أن نبدأ كل حمّام برسم ونسلّمه نظيفًا وفي موعده بعزل مُختبَر.</p>"
+    "ar": "<h2>مهمتنا</h2>\n<p>أن نبدأ كل حمّام برسم ونسلّمه نظيفًا وفي موعده بعزل مُختبَر.</p>",
+    "de": "<h2>Unsere Mission</h2>\n<p>Das Bad mit einer Zeichnung zu beginnen und es mit getesteter Abdichtung sauber und pünktlich zu übergeben.</p>",
+    "ru": "<h2>Наша миссия</h2>\n<p>Начинать ванную с чертежа и сдавать её чистой и в срок, с проверенной гидроизоляцией.</p>"
   },
   "title": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "date": "2026-11-16T18:02:46.651Z",
   "update": "2026-11-16T18:15:19.137Z",

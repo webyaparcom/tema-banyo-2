@@ -3,17 +3,23 @@
   "name": {
     "tr": "Keşif",
     "en": "Survey",
-    "ar": "المعاينة"
+    "ar": "المعاينة",
+    "de": "Besichtigung",
+    "ru": "Осмотр"
   },
   "description": {
     "tr": "Kat planından alan seçerek keşif talebi (demo).",
     "en": "Survey request by picking areas on the floor plan (demo).",
-    "ar": "طلب معاينة باختيار الأركان من المخطط (تجريبي)."
+    "ar": "طلب معاينة باختيار الأركان من المخطط (تجريبي).",
+    "de": "Besichtigungsanfrage durch Auswahl der Fläche im Grundriss (Demo).",
+    "ru": "Запрос на осмотр с выбором площади на плане этажа (демо)."
   },
   "keyword": {
     "tr": "keşif, randevu",
     "en": "survey, appointment",
-    "ar": "معاينة، موعد"
+    "ar": "معاينة، موعد",
+    "de": "Erkundung, Termin",
+    "ru": "обследование, запись"
   },
   "path": "teklif-al",
   "icon": "event",
@@ -32,7 +38,9 @@
   "title": {
     "tr": "Keşif",
     "en": "Survey",
-    "ar": "المعاينة"
+    "ar": "المعاينة",
+    "de": "Besichtigung",
+    "ru": "Осмотр"
   },
   "date": "2026-11-16T18:02:46.839Z",
   "update": "2026-11-16T18:15:19.127Z"
