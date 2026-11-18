@@ -3,17 +3,23 @@
   "name": {
     "tr": "Projeler",
     "en": "Projects",
-    "ar": "المشاريع"
+    "ar": "المشاريع",
+    "de": "Projekte",
+    "ru": "Проекты"
   },
   "description": {
     "tr": "Bir banyo yenilemesinin aşamaları; görseller temsilîdir.",
     "en": "The stages of a bathroom renovation; images are representative.",
-    "ar": "مراحل تجديد حمّام؛ الصور تمثيلية."
+    "ar": "مراحل تجديد حمّام؛ الصور تمثيلية.",
+    "de": "Die Phasen einer Badrenovierung; die Bilder sind symbolisch.",
+    "ru": "Этапы обновления ванной комнаты; изображения условные."
   },
   "keyword": {
     "tr": "proje, banyo yenileme",
     "en": "project, bathroom renovation",
-    "ar": "مشروع، تجديد حمّام"
+    "ar": "مشروع، تجديد حمّام",
+    "de": "Projekt, Badsanierung",
+    "ru": "проект, ремонт ванной"
   },
   "path": "referanslar",
   "icon": "photo_library",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Projeler",
     "en": "Projects",
-    "ar": "المشاريع"
+    "ar": "المشاريع",
+    "de": "Projekte",
+    "ru": "Проекты"
   },
   "date": "2026-11-16T18:02:46.831Z",
   "update": "2026-11-16T18:15:19.123Z"

@@ -2,7 +2,9 @@
   "name": {
     "tr": "İletişim",
     "en": "Contact",
-    "ar": "اتصل بنا"
+    "ar": "اتصل بنا",
+    "de": "Kontakt",
+    "ru": "Контакты"
   },
   "status": "play",
   "category": "",
@@ -23,7 +25,9 @@
   "description": {
     "tr": "Proje formu, adres ve atölye saatleri.",
     "en": "Project brief, address and workshop hours.",
-    "ar": "نموذج المشروع والعنوان وساعات الورشة."
+    "ar": "نموذج المشروع والعنوان وساعات الورشة.",
+    "de": "Projektskizze, Adresse und Werkstattzeiten.",
+    "ru": "Описание проекта, адрес и часы работы мастерской."
   },
   "spot": {
     "tr": "",
@@ -34,12 +38,16 @@
   "title": {
     "tr": "İletişim",
     "en": "Contact",
-    "ar": "اتصل بنا"
+    "ar": "اتصل بنا",
+    "de": "Kontakt",
+    "ru": "Контакты"
   },
   "keyword": {
     "tr": "iletişim",
     "en": "contact",
-    "ar": "اتصال"
+    "ar": "اتصال",
+    "de": "Kontakt",
+    "ru": "контакты"
   },
   "text": {},
   "update": "2026-11-16T18:15:19.132Z",
